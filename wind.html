@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latitude Analyses</title>
+    <!-- <link rel="stylesheet" href="assets/reset.css" type="text/css"> -->
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body id="body-background">
+    <nav id="nav-id" class="navbar navbar-expand-lg navbar-light bg-light">
+        <h1 id="h1-nav"><a id="home-button" class="navbar-brand" href="index.html">Latitude</a></h1>
+        <div class="ml-auto order-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="temp.html">Latitude vs. Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Latitude vs. Cloudiness</a>
+                      <a class="dropdown-item" href="wind.html">Latitude vs. Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="row large-grid">
+          <!-- First column -->
+          <div class="col-xl-8 col-lg-12 sum-col">
+                <h1 class="col-title" >Wind Speed</h1>
+                <hr>
+                <div class="summary">
+                    <p>
+                        <img class="" src="assets/images/humid.png" alt="latitude vs. temperature">
+                    <br>
+                    <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the souther hemisphere tends to be warmer this timer of year than the northern hemisphere. This may be due to the tilt of the earth at the time of year this data was gathered.</p>
+                </div>
+            </div>
+
+            <!-- Second column -->
+            <div class="col-xl-4 col-lg-12 vis-col">
+                <h1 class="col-title">Visualizations</h1>
+                <hr>
+                <div class="row graphs">
+                    <div class="col-xl-6 col-lg-3 col-sm-6">
+                        <a href="temp.html"><img src="assets/images/temp.png" alt="latitude vs. temperature"></a>
+                    </div>
+                    <div class="col-xl-6 col-lg-3 col-sm-6">
+                        <a href="humidity.html"><img src="assets/images/humid.png" alt="latitude vs. humidity"></a>
+                    </div>
+                    <div class="col-xl-6 col-lg-3 col-sm-6">
+                        <a href="cloudiness.html"><img src="assets/images/cloud.png" alt="latitude vs. cloudiness"></a>
+                    </div>
+                    <div class="col-xl-6 col-lg-3 col-sm-6">
+                        <a href="wind.html"><img class="selected-graph" src="assets/images/wind.png" alt="latitude vs. wind speeds"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<footer id="sticky-footer" class="py-3 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>&copy; Copyright</small>
+    </div>
+</footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+</body>
+</html>

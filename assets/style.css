@@ -105,6 +105,10 @@ tr:nth-child(odd) {
     background: #ebebeb;
 }
 
+.selected-graph {
+    border: 2px solid #2cbfb3;
+}
+
 @media (max-width: 991.9px) {
     #nav-id {
       background-color: #2cbfb3 !important;
