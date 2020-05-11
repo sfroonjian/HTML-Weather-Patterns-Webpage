@@ -4,10 +4,10 @@ img {
     display: block; /* remove extra space below image */
 }
 
-.summary_pic {
+.summary-pic {
     max-width: 50%;
     max-height: 50%;
-    display: inline-block;
+    float: left;
 }
 
 nav {
@@ -15,24 +15,24 @@ nav {
 }
 
 #body-background {
-    background-color: #e3e3e3
+    background-color: #e3e3e3;
 }
 
 .large-grid {
     margin-top: 60px;
-    margin-bottom: 60px;
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: white;
 }
 
-.sum-col {
-    background-color: white;
+.graphs {
+    margin-top: 15px;
 }
 
-.vis-col {
+.card {
     background-color: white;
+    padding: 40px;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -40,7 +40,6 @@ footer {
 }
 
 .col-title {
-    margin: 40px 20px;
     color: #2cbfb3;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -74,14 +73,6 @@ footer {
     margin: 0;
 }
 
-.summary {
-    margin: 30px 10px 40px 20px;
-}
-
-.graphs {
-    margin: 30px 20px 40px 10px;
-}
-
 small {
     color: white !important;
     text-align: center !important;
@@ -92,18 +83,18 @@ table {
     margin-right:auto;
   }
 
-  th {
-      text-align: left !important;
-      background-color: white;
-  }
+th {
+    text-align: left !important;
+    background-color: white;
+}
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background: white;
 }
 
 tr:nth-child(odd) {
     background: #ebebeb;
-}
+} */
 
 .selected-graph {
     border: 2px solid #2cbfb3;
